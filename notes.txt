@@ -1,0 +1,53 @@
+HTML
+What is html
+what is semantic html, semantics in html gives us the meaning for the tag we are using
+accessibility, why it matters
+
+need to be written in a way that is useful for people reading it, so devs/other people/users can read and us it easily
+not everyone will be interacting with websites in the same way
+
+must include:
+people with;-
+-impaired vision,
+-motor difficulties
+-impairments or learning difficulties
+-deaf people
+-etc...
+
+core web technologies
+
+- javascript (code that can be run on websites)
+- html (format which websites are created)
+- css (cascading style sheets, takes structure of the html and adds levels of styles to it)
+
+boiler plate (stuff that should be in every file)
+
+html is written using tags, something inside braces <>
+
+html will be organised within tags which will have context and meaning
+the tags will be used to make it semantic, enables different devices to be used to read site, informs user what the contex is
+
+
+
+<h1> heading number 1, can have other numbers 1-6
+<p> paragraph
+<section> used to portion parts of the site off
+<ul> unordered list
+<li> list item
+<ol> list items with numbers
+
+tags are closed with </>
+not all need closing
+
+eg meta tag     <meta charset="UTF-8"> 
+
+image tag have attributes <img src="" alt=""> source and alt
+
+<div> and <span> used to divide up site, only visually non semantic
+
+
+
+
+
+
+
