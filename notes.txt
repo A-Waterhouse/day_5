@@ -46,6 +46,92 @@ image tag have attributes <img src="" alt=""> source and alt
 <div> and <span> used to divide up site, only visually non semantic
 
 
+================================css==================================
+
+what is css
+why we use css
+how to apply css to a HTML document to update it visually
+
+css styles parts of the HTML document
+
+cascading the style throughout the websites
+
+there is a default setting included in html which is applied automatically 
+
+css is language that expresses the presentation of structured documents
+
+css must be linked to the html document in the <head> part
+<link rel="stylesheet" href="./styles/style.css">
+
+how to apply styling to the page
+select the element you want to apply style to
+body {
+    font-family: 
+    color:
+    background-color:
+
+}
+
+because of cascading the elements will be styled in the parent child relationship, info will be passed along to any children
+
+*{
+    this will apply styles to the whole document
+    color:
+    font-family:
+}
+
+not all attributes cascade eg. border in body wont cascade down to the children
+
+defining group of elements
+using a class to target a group for styling
+<li class="shopping_list_item">item</li>
+class/group is now called shopping_list_item
+ a . (period) is used in the css file to target that part of the html
+ 
+ .shopping_list_item{
+    background-color:
+ }
+
+ to target a specific single element we can use an inside
+
+<li id="list_item">item</li>
+then we can us the # symbol in the css to target that element
+#list_item {
+    background-color:
+}
+
+to create space between elements we consider
+border
+margin
+padding
+
+margin is the space around
+border is space between items
+padding is size internally
+
+when we access things that are more specific with id or class the priority will change to the items in that class
+
+top priority, 
+id
+class
+element selectors
+passed down, cascaded from other styles to the children elements
+
+css is read and applied top to bottom
+
+try to be generic than add layers of specificity as you go along
+
+flex and grid
+flex use to order or separate items
+
+grid is used to make thing more structured
+more about overall layout
+
+
+
+
+
+
 
 
 
