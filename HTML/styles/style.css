@@ -42,7 +42,9 @@ body {
     margin-bottom: 100px;
     margin-left: -750px;
   }
-
+  .border {
+    background-color: gray;
+  }
 
   .grid-container {
     display: grid;
@@ -50,11 +52,11 @@ body {
     grid-template-rows: auto auto;
     
 
-    gap: 10px;
+    /* gap: 10px; */
     background-color: #2196F3;
     padding: 10px;
   
-    
+    grid-gap: 10px;
   
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
